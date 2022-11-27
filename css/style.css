@@ -1,0 +1,117 @@
+/* header */
+
+header{
+    display: flex;
+    margin-bottom: 266px;
+    padding: 64px 132px;
+}
+.logo{
+    /* margin-top: 64px;
+    margin-left: 132px; */
+    align-items: center;
+}
+
+nav{
+    width: 596px;
+    margin-left: 730px;
+    /* margin-top: 80px; */
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav li a{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3D37F1;
+}
+
+/* end header */
+
+
+/*--------------- start main------ */
+
+/* upper-block */
+
+.upper-block{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 288px;
+}
+.left-box {
+    width: 636px;
+    /* background-color: darksalmon; */
+}
+.left-box-h {
+    font-size: 78px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    line-height: 109px;
+    color: #534D4D;
+}
+.left-box-p {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    color: #534D4D;
+    margin-top: 39px;
+}
+.wave {
+    width: 264px;
+    height: 77px;
+    background-color: #3D37F1;
+    border-radius: 38px;
+    padding: 22px 50px;
+
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-top: 153px;
+}
+
+.wave::before {
+    content: url(../img/waving-hand.svg);
+    margin-right: 28px;
+}
+.wave:hover {
+    background-color: #5853f1;
+}
+
+
+/* below-block */
+
+.below-block {
+    background-color: #FBFCFD;
+    height: 800px;
+    text-align: center;
+}
+
+.below-block-h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #3D37F1;
+}
+
+.below-block-h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #5A5454;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.below-block-p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #747474;
+}
